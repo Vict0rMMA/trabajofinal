@@ -2,7 +2,7 @@
 Calculadora pensional
 
 # Desarrollador
-Matías Herrera 
+Victor Manuel Monsalve Aguilar 
 Estudiantes de ingeniería en sistemas - UdeM  
 Entrega #3 de Código Limpio
 
@@ -72,6 +72,6 @@ dicho paso se hace de la siguiente manera -> cd C:\Users\ASUS\Downloads\Calculad
 Este proyecto está bajo la licencia MIT.
 
 ## Contactos
-- Matías Herrera: Estudiante Ing. Sistemas
+- VItor Monsalve: Estudiante Ing. Sistemas
 
 ¡Gracias!
