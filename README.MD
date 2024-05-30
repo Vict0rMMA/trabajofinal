@@ -75,3 +75,30 @@ Este proyecto está bajo la licencia MIT.
 - VItor Monsalve: Estudiante Ing. Sistemas
 
 ¡Gracias!
+
+
+
+Proyecto: Motor de encriptación.
+
+Estructura de carpetas
+src: Contiene el código fuente del proyecto.
+model: Contiene la lógica de negocio.
+view: Contiene las vistas de la aplicación, ya sea por consola, web o interfaz gráfica.
+controller: Contiene el controlador de la aplicación.
+templates: Contiene las plantillas HTML que se renderizan en la web.
+tests: Contiene las pruebas unitarias del aplicativo.
+Instrucciones de uso
+Asegurese de tener Python instalado en su unidad. Si no lo tiene, visite el siguiente enlace y descargue el ejecutable: Python.
+Clone el repositorio.
+Instale las dependencias necesarias para el correcto funcionamiento del proyecto. Para ello, primero ubiquese en el directorio raíz de la carpeta clonada y ejecute el siguiente comando: pip install -r requirements.txt.
+Ejecute el siguiente comando: set PYTHONPATH=[ruta raíz de la carpeta clonada]. Ignore los corchetes, por ejemplo en mi caso el comando quedaría de la siguiente manera: 'set PYTHONPATH=C:\Users\dsana\Workspace\Encryption'.
+Reemplace las credenciales de acceso a la base de datos por las suyas en el módulo secret_config.py.
+Abra la consola de comandos (simbolo del sistema). NOTA: El paso anterior no funcionará en una términal Powershell, por ello debe ejecutar todos lo anterior en una consola de comandos.
+Si desea ejecutar las pruebas unitarias del aplicativo siga las instrucciones proporcionadas a continuación:
+Ubiquese en la ruta 'tests'. Haga uso del siguiente comando: cd tests.
+Ejecute el siguiente comando: python app_tests.py.
+Si desea correr las pruebas unitarias del controlador siga los mismos pasos que en el paso anterior y ejecute el siguiente comando: python controller_tests.py.
+Si desea correr las interfaces gráficas siga las instrucciones proporcionadas a continuación:
+Ubiquese en la ruta 'src/view/console' si desea ejecutar la interfaz por consola. Luego ejecute el siguiente comando: python console.py.
+Ubiquese en la ruta 'src/view/interface' si desea ejecutar la interfaz gráfica. Luego ejecute el siguiente comando: python gui.py.
+Por último, si desea probar el aplicativo en su forma de página web ubiquese en la raíz de la carpeta clonada y ejecute el siguiente comando: python app.py. Abra el link proporcionado en el navegador.
